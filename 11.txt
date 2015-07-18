@@ -1,0 +1,447 @@
+002
+(A) He is sipping from a cup.
+(B) He is seated in front of a laptop.
+(C) He is turning on the computer.
+(D) He is holding a menu.
+(A) 그가 잔으로 홀짝홀짝 마시고 있다.
+(B) 그가 노트북 앞에 앉아 있다.
+(C) 그가 컴퓨터를 켜고 있다.
+(D) 그가 메뉴를 들고 있다.
+[해설] 컴퓨터 앞에 앉아 있는 남자가 보이므로 정답은 (B)이다. (A)는 동작이 잘못
+묘사되었으며, (C)는 사진상으로 남자가 컴퓨터를 켜고 있는지 확신할 수 없
+으므로 정답이 될 수 없다. (D)는 사진에 등장하지 않는 사물(menu)이 언급
+되었으므로 오답이다.
+[어휘] sip: (음료를) 홀짝이다 laptop: 노트북
+
+
+018
+(A) A clerk is offering assistance to a customer.
+(B) One of the women is paying at the counter.
+(C) The women are wearing uniforms.
+(D) One of the women is reaching for a bell.
+(A) 종업원이 손님에게 도움을 주고 있다.
+(B) 여자들 중 한 명이 계산대에서 지불을 하고 있다.
+(C) 여자들이 유니폼을 입고 있다.
+(D) 여자들 중 한 명이 종을 향해 손을 뻗고 있다.
+[해설] 한 여자가 종업원으로 보이는 여자에게 무언가를 물어보는 모습이므로 ‘종업
+원이 도움을 주고 있다’라고 묘사한 (A)가 가장 정답에 가깝다. (B), (C), (D)
+는 각각 paying, women, reaching for a bell 표현이 잘못되었다.
+[어휘] assistance: 도움 reach for: ~을 향하여 손을 뻗다
+
+
+033
+(A) People are getting on a truck.
+(B) A woman is unfolding a box.
+(C) The boxes are stacked in two rows.
+(D) A man is passing a box to a woman.
+(A) 사람들이 트럭에 탑승하고 있다.
+(B) 여자가 상자를 펴고 있다.
+(C) 상자들이 두 줄로 쌓여 있다.
+(D) 남자가 여자에게 상자를 건네고 있다.
+[해설] 사람들이 트럭에서 상자들을 내리고 있는 모습 또는 트럭에 상자들을 싣고 있
+는 모습이다. (실제 토익 시험에서도 이런 애매한 사진이 나오는 경우가 있지만
+다른 선택지를 집중하여 들으면 답을 고르는 것은 어렵지 않다.) 어떤 경우이든
+나머지 선택지는 사진과 어울리지 않으므로 정답은 (D)밖에 되지 않는다.
+[어휘] unfold: (접힌 것을) 펴다 stack: 쌓아 두다
+pass: 건네주다
+
+
+
+part2
+
+052
+Where can I find the employee telephone directory?
+(A) Susan may have it.
+(B) That’s okay.
+(C) Call me after 5 o’clock.
+직원 전화번호부를 어디서 찾을 수 있나요?
+(A) Susan이 가지고 있을 거예요.
+(B) 괜찮아요.
+(C) 5시 이후에 전화 주세요.
+[해설] 전화번호부가 어디 있는지를 묻는 Where 의문문으로, Susan에게 있을 거
+라고 답한 (A)가 정답이다.
+[어휘] telephone directory: 전화번호부
+
+
+057
+Why is Mr. Moore out of the office?
+(A) It’s out of order.
+(B) He is with a client.
+(C) I have an appointment this afternoon.
+왜 Mr. Moore가 사무실에 없죠?
+(A) 그거 고장 났어요.
+(B) 그는 고객과 같이 있어요.
+(C) 저는 오늘 오후에 약속이 있어요.
+[해설] 사무실에 없는 이유를 묻는 Why 의문문으로, 다른 고객과 있기 때문이라고
+이유를 설명한 (B)가 정답이다.
+[어휘] out of order: 고장 난 appointment: 약속
+
+
+085
+Are you satisfied with our service?
+(A) At the customer service center.
+(B) Yes, I really enjoyed it.
+(C) I’ll pay cash.
+저희 서비스에 만족하십니까?
+(A) 고객 서비스 센터에서요.
+(B) 네, 정말 즐거웠습니다.
+(C) 현금으로 지불하겠습니다.
+[해설] 서비스에 만족했는지 묻는 질문에, 그렇다고 대답하며 정말 즐거웠다고 한 (B)
+가 정답이다.
+[어휘] be satisfied with: ~에 만족하다
+pay: 지불하다 cash: 현금
+
+
+100
+Don’t you have an appointment with a client today?
+(A) To make a new contract
+(B) My assistant changed it to next week.
+(C) He arrived yesterday.
+오늘 고객과 약속이 있지 않나요?
+(A) 새 계약을 하려고요.
+(B) 제 비서가 다음 주로 바꿨어요.
+(C) 그는 어제 도착했어요.
+[해설] 고객과 약속이 있지 않냐고 묻는 부정 의문문으로, 오늘이었는데 비서가 다음
+주로 바꿨다고 대답한 (B)가 정답이다.
+[어휘] appointment: 약속 assistant: 비서
+
+
+136
+We are running out of space in our office.
+(A) Yes, we need to move to a larger office.
+(B) I try to run every day.
+(C) Let’s keep this place.
+우리는 사무실 공간이 부족해지고 있어요.
+(A) 네, 우리는 더 큰 사무실로 이사해야 해요.
+(B) 저는 매일 달리려고 노력합시다.
+(C) 이 장소를 유지합시다.
+[해설] 사무실 공간이 부족해지고 있다는 내용의 평서문으로, 더 큰 사무실로 이사해
+야 한다고 대답한 (A)가 정답이다. (B)는 질문의 run에서 연상할 수 있는 오
+답이다.
+[어휘] run out: 부족하다
+
+
+
+part3
+
+41. What event does the woman want to attend?
+(A) An orchestral concert
+(B) A theater performance
+(C) A film festival
+(D) A sports game
+
+42. What problem does the woman mention?
+(A) No seats are available.
+(B) A credit card was charged twice.
+(C) The game was cancelled.
+(D) The website isn’t working properly.
+
+43. What information does the man request?
+(A) Seat numbers
+(B) A credit card number
+(C) Contact information
+(D) A reservation number
+
+
+44. Where do the speakers most likely work?
+(A) At a photography studio
+(B) At an advertising company
+(C) At a printing shop
+(D) At a publishing company
+
+45. According to the woman, what needs to be modified?
+(A) The advertisement
+(B) The marketing strategy
+(C) The submission date
+(D) The product line
+
+46.  Why do the speakers have to wait to complete the job?
+(A) The client extended the deadline.
+(B) The printing store is closed.
+(C) A draft design was rejected.
+(D) The person in charge is unavailable.
+
+
+
+part3 해설
+
+Questions 213-215 refer to the following conversation.
+W: Hi, (213) I’m trying to purchase tickets to the rugby game at Vector
+Stadium this Sunday, (214) but your website seems to be down.
+The windows just shut down after selecting the seats.
+M: Well, we had some technical difficulties this morning due to
+heavy traffic. Would you like me to help you purchase tickets over
+the phone?
+W: Yes, please. I would like to book two front row seats in section
+C. It would be perfect if those seats are next to the aisle.
+M: Sure, (215) I will book your seats right now if you could give me
+your name and credit card number.
+여: 안녕하세요. 이번 주 일요일에 Vector Stadium에서 열리는 럭비 경기의
+입장권을 구매하려고 하는데 웹사이트가 다운된 것으로 보여요. 자리를 선택한
+후에 창들이 그냥 닫혔어요.
+남: 네, 오늘 아침에 과도한 접속으로 기술적인 문제가 있었어요. 전화로 입장
+권 구입을 도와 드릴까요?
+여: 네. C 구역의 앞줄 두 자리를 예약하고 싶어요. 통로 옆이면 완벽할 것 같
+아요.
+남: 네, 이름과 신용카드 번호를 알려 주시면 지금 바로 자리를 예약해 드릴게요.
+
+213
+여자는 어떤 행사에 참석하기를 원하는가?
+(A) 오케스트라 콘서트
+(B) 극장 공연
+(C) 영화 축제
+(D) 스포츠 경기
+[해설] 문제의 키워드는 what event, woman, want, attend로, 여자가 가고 싶
+어 하는 행사를 묻고 있다. ‘I’m trying to purchase tickets to the rugby
+game at Vector Stadium this Sunday’에서 여자는 럭비 경기의 입장권
+을 예매하려고 한다고 했으므로 (D)가 정답이다.
+214
+여자가 언급하는 문제는?
+(A) 자리가 남아 있지 않다.
+(B) 신용카드가 두 번 결제되었다.
+(C) 경기가 취소되었다.
+(D) 웹사이트가 제대로 작동하지 않는다.
+[해설] 문제의 키워드는 what problem, woman, mention으로, 여자가 말한 문
+제점이 무엇인지 묻고 있다. ‘but your website seems to be down.’에
+서 웹사이트가 다운된 것 같다고 했으므로 (D)가 정답이다.
+215
+남자가 요청한 정보는?
+(A) 좌석 번호
+(B) 신용카드 번호
+(C) 연락처
+(D) 예약 번호
+[해설] 문제의 키워드는 what information, man, request로, 남자가 요청한 것
+을 묻고 있다. ‘I will book your seats right now if you could give me
+your name and credit card number.’에서 이름과 신용카드 번호를 알려
+달라고 했으므로 (B)가 정답이다.
+
+[어휘] purchase: 구입하다 select: 선택하다
+technical: 기술적인 difficulties: 어려움, 장애
+traffic: (인터넷) 접속량 aisle: 복도, 통로
+
+
+Questions 222-224 refer to the following conversation.
+M: (222) I want to ask everyone’s opinion about the new marketing
+plan for Gianni’s latest product line. They are one of our biggest
+clients, so we need to make sure they are satisfied with the outcome.
+Have you talked to them about the final design?
+W: Yes, (223) they loved it except for the font used in the headline.
+We are sending a revised file later this afternoon. As soon as it
+is confirmed, we should send the advertisement to the printing
+company.
+M: Okay, but I heard that (224) the manager in charge is away on
+business. So, we won’t be able to send it over until he comes back
+next week.
+남: Gianni의 최신 제품 라인을 위한 새 마케팅 계획과 관련하여 모두에게 의
+견을 물어봤으면 해요. 그들은 우리의 가장 큰 고객들 중 하나이니, 우리는 그
+들이 결과에 확실히 만족하도록 해야 해요. 최종안과 관련해서 그들과 이야기
+해 봤나요?
+여: 네, 표제에 사용된 서체를 제외하고는 그들은 그것을 굉장히 좋아했어요.
+우리는 오늘 오후에 수정된 파일을 보낼 거예요. 승인되면 바로 우리는 인쇄소
+에 광고를 보내야 해요.
+남: 알겠어요. 그러나 저는 담당 매니저가 업무 때문에 자리를 비웠다고 들었어
+요. 그러니, 우리는 그가 다음 주에 돌아올 때까지 그것을 보낼 수 없을 거예요.
+
+222
+화자들은 어디에서 일하겠는가?
+(A) 사진 스튜디오
+(B) 광고 회사
+(C) 인쇄소
+(D) 출판 회사
+[해설] 문제의 키워드는 where, speakers, work로, 화자들의 직장을 묻는 질문
+이다. ‘I want to ask everyone’s opinion about the new marketing
+plan for Gianni’s latest product line.’에서 마케팅 전략을 언급하고 있으
+며 이어서 광고를 수정하는 내용으로 그들이 일하는 곳은 광고 회사임을 알 수
+있다. 따라서 정답은 (B)이다.
+223
+여자에 따르면, 수정되어야 하는 것은?
+(A) 광고
+(B) 마케팅 전략
+(C) 제출일
+(D) 제품 라인
+[해설] 문제의 키워드는 woman, what, needs, modified로, 여자가 수정되어
+야 한다고 말한 것이 무엇인지를 묻고 있다. ‘they loved it except for the
+font used in the headline. We are sending a revised file later this
+afternoon.’에서 고객들이 표제를 마음에 들어 하지 않았으며, 수정해야 된다고
+언급하였고 뒤이어 광고를 인쇄소에 보내야 한다고 했으므로 정답은 (A)이다.
+224
+화자들은 일을 마무리하기 위해 왜 기다려야 하는가?
+(A) 고객이 마감을 연장했다.
+(B) 인쇄소가 닫았다.
+(C) 시안이 거절됐다.
+(D) 담당자가 자리에 없다.
+[해설] 문제의 키워드는 why, speakers, wait로, 화자들이 기다려야 하는 이유
+를 묻고 있다. ‘the manager in charge is away on business. So, we won’t be able to send it over until he comes back next week.’에서
+담당자가 업무 때문에 자리를 비워서 돌아올 때까지 보낼 수 없다고 했으므로
+정답은 (D)이다.
+
+[어휘] opinion: 의견, 견해 latest: 최신의
+client: 고객 satisfy: 만족시키다
+final design: 최종안 headline: 표제
+revised: 수정된 confirm: 확인하다
+
+
+
+
+
+part4
+
+71. What is the purpose of the call?
+(A) To reschedule an appointment
+(B) To buy tickets
+(C) To arrange an interview
+(D) To request documentation
+
+72. What event is being held on Saturday?
+(A) An awards banquet
+(B) A retirement party
+(C) A new exhibition
+(D) A fund raising event
+
+73. When will the article most likely be published?
+(A) On Monday
+(B) On Tuesday
+(C) On Thursday
+(D) On Saturday
+
+
+74. Who most likely is Michael Phillips?
+(A) A construction worker
+(B) A radio host
+(C) A transportation expert
+(D) The city’s mayor
+
+75. What is the purpose of the construction project?
+(A) To create a parking area
+(B) To widen a highway
+(C) To repair a bridge
+(D) To build a motorway service station
+
+76. What does the speaker recommend doing?
+(A) Using public transportation
+(B) Checking a website
+(C) Sponsoring an event
+(D) Taking a detour
+
+
+
+
+part4 해설
+
+Questions 276-278 refer to the following telephone message.
+Hi, I’m calling for Mr. Jordan from the Plymouth Times. I want to
+write an article on the new Egyptian exhibit section of the public museum,
+and was wondering (276) if I could arrange a meeting with Mr.
+Jordan. In my article, I want to focus on how he arranged with the
+international community to have items donated, and the challenges
+in persuading the museum to open up a new section. I am available
+anytime between 2 P.M. to 8 P.M. on weekdays. However, (278) because
+I’d like to submit my article to the editor on Thursday, just (277)
+before the museum opens the new display to the public on Saturday,
+I would very much appreciate it if I could meet him before that time.
+I hope to hear back from you soon. Thank you.
+안녕하세요, Plymouth Times의 Mr. Jordan과 관련하여 전화드렸습니다.
+저는 공립 박물관의 새로운 이집트 전시 구획에 관한 기사를 쓰고 싶으며, Mr.
+Jordan을 만나 뵐 수 있는지 궁금합니다. 기사에서는, 전시품이 기부되게 하기
+위해 어떻게 그가 국제 사회와 합의했는지, 그리고 박물관이 새 구획을 열도록
+설득하는 데 있어 어려움에 중점을 두고 싶습니다. 주중 오후 2시와 8시 사이에
+는 언제든지 가능합니다. 그러나 박물관이 토요일에 새 전시를 대중에게 공개
+하기 전인 목요일에 편집자에게 제 기사를 제출하고 싶기 때문에, 그 전에 그와
+만날 수 있으면 정말 좋겠습니다. 곧 답장 주시길 기대하겠습니다. 감사합니다.
+
+276
+전화의 목적은?
+(A) 약속을 다시 잡기 위해
+(B) 표를 구매하기 위해
+(C) 인터뷰를 주선하기 위해
+(D) 서류를 요청하기 위해
+[해설] 문제의 키워드는 What, purpose로, 메시지 초반부 ‘if I could arrange a
+meeting with Mr. Jordan.’에서 Mr. Jordan을 만나 뵐 수 있는지 궁금하
+다고 했으므로 정답은 (C)이다.
+277
+토요일에는 무슨 행사가 열리는가?
+(A) 시상식 연회
+(B) 은퇴 파티
+(C) 새로운 전시회
+(D) 기금 조성 행사
+[해설] 문제의 키워드는 What, held, Saturday로, ‘before the museum
+opens the new display to the public on Saturday’에서 토요일에 새
+전시를 대중에게 공개한다는 것을 알 수 있으므로 (C)가 정답이다.
+278
+기사는 언제 게재될 것 같은가?
+(A) 월요일에
+(B) 화요일에
+(C) 목요일에
+(D) 토요일에
+[해설] 문제의 키워드는 When, article, published로, ‘because I’d like to
+submit my article to the editor on Thursday’에서 화자가 목요일에 편
+집자에게 기사를 제출하고 싶다는 것을 확인할 수 있다. 따라서 목요일에 기사
+가 게재될 가능성이 높으므로 (C)가 정답이다.
+
+[어휘] article: 기사 exhibit: 전시
+focus on: ~에 주력하다, ~에 중점을 두다
+arrange with: ~와 합의하다 donate: 기부하다
+persuade: 설득하다 editor: 편집자
+appreciate: 고맙게 생각하다, 감사하다
+
+
+
+
+Questions 291-293 refer to the following broadcast.
+You’re listening to the evening traffic report on WKTR Radio. (291)
+I’m your host, Michael Phillips. The highways are looking clear tonight,
+and there are no accidents reported. (292) Don’t forget that
+tomorrow is the start of the two-month construction project to
+add an additional lane to Highway 7. This will help relieve traffic
+congestion, especially near the Stanton Bridge. Mayor Ramona Adams
+said that transportation experts are working hard to minimize
+disruption in the traffic patterns. A website has been developed
+to provide up-to-date information about detours and traffic delays.
+(293) I recommend visiting the website before heading into traffic.
+It can be found at www.shermancity.gov. Now, a word from our
+sponsors.
+WKTR Radio의 저녁 교통 정보를 듣고 계십니다. 저는 진행자 Michael
+Phillips입니다. 오늘 밤 고속도로는 정체가 없어 보이며, 교통사고 소식도 없
+습니다. 내일은 7번 고속도로에 추가 차선을 하나 더 만드는 2개월짜리 건설 프
+로젝트가 시작된다는 것을 잊지 마십시오. 이는 특히 Stanton Bridge 근처의
+교통 체증을 완화시켜 줄 것입니다. Ramona Adams 시장은 교통 전문가가
+교통 양상에서의 혼란을 최소화하기 위해 열심히 작업할 것이라고 말했습니다.
+우회와 교통 지연에 관한 최신 정보를 제공하기 위해 웹사이트가 개발되었습니
+다. 운전하러 나가시기 전에 웹사이트를 방문하시는 것을 권장합니다. www.
+shermancity.gov에서 찾으실 수 있습니다. 자 이제, 후원자들의 말씀을 들어
+보도록 하겠습니다.
+
+291
+Michael Phillips는 누구일 가능성이 가장 높은가?
+(A) 공사현장 인부
+(B) 라디오 진행자
+(C) 교통 전문가
+(D) 시장
+[해설] 문제의 키워드는 Who, Michael Phillips로, ‘I’m your host, Michael
+Phillips.’에서 진행자라고 소개하고 있으므로 (B)가 정답이다.
+292
+건설 프로젝트의 목적은 무엇인가?
+(A) 주차장을 만들기 위해
+(B) 고속도로를 넓히기 위해
+(C) 다리를 수리하기 위해
+(D) 고속도로 휴게소를 만들기 위해
+[해설] 문제의 키워드는 What, purpose, construction project로, ‘Don’t
+forget that tomorrow is the start of the two-month construction
+project to add an additional lane to Highway 7.’에서 고속도로에 추가
+차선을 만든다고 했으므로 (B)가 정답이다.
+293
+화자는 무엇을 하는 것을 권장하는가?
+(A) 대중교통을 이용하는 것
+(B) 웹사이트를 확인하는 것
+(C) 행사를 후원하는 것
+(D) 우회하는 것
+[해설] 문제의 키워드는 What, speaker, recommend로 ‘I recommend
+visiting the website before heading into traffic.’에서 사이트를 방문하
+는 것을 권장한다고 했으므로 (B)가 정답이다.
+
+[어휘] host: 진행자 highway: 고속도로
+accident: 사고 additional: 추가의
+lane: 차선 relieve: 완화시키다
+traffic congestion: 교통 체증 mayor: 시장
+disruption: 혼란 up-to-date: 최신의
+detour: 우회
