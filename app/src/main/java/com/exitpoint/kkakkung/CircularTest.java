@@ -1,6 +1,7 @@
 package com.exitpoint.kkakkung;
 
 import android.app.Fragment;
+import android.content.ClipData;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.AttributeSet;
@@ -8,9 +9,12 @@ import android.util.Xml;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.exitpoint.kkakkung.CircularView;
 import com.exitpoint.kkakkung.library.FloatingActionButton;
@@ -27,11 +31,13 @@ import com.exitpoint.kkakkung.library.animation.*;
 
 public class CircularTest extends ActionBarActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circular_test);
+
+
+
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
                     .add(R.id.container, new CustomAnimationDemoFragment())
@@ -83,7 +89,7 @@ public class CircularTest extends ActionBarActivity {
 
             SubActionButton.Builder rLSubBuilder = new SubActionButton.Builder(getActivity())
                     .setTheme(SubActionButton.THEME_DARK);
-            ImageView rlIcon1 = new ImageView(getActivity());
+            final ImageView rlIcon1 = new ImageView(getActivity());
             ImageView rlIcon2 = new ImageView(getActivity());
             ImageView rlIcon3 = new ImageView(getActivity());
             ImageView rlIcon4 = new ImageView(getActivity());
@@ -94,6 +100,34 @@ public class CircularTest extends ActionBarActivity {
             rlIcon3.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_video));
             rlIcon4.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_place));
             rlIcon5.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_headphones));
+
+
+
+
+
+            View.OnTouchListener touchListener = new View.OnTouchListener(){
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    // 여기서 clipdata로 저장하나봄
+                    String tag = v.getTag().toString();
+                    ClipData clipData = ClipData.newPlainText("TAG", tag);
+
+                    Toast.makeText(getActivity(), tag, Toast.LENGTH_SHORT).show();
+                    View.DragShadowBuilder shadowBuilder;
+
+                    shadowBuilder = new View.DragShadowBuilder(v);
+                    v.startDrag(clipData, shadowBuilder, null, 0);
+
+
+                    return false;
+                }
+            };
+
+            rlIcon1.setOnTouchListener(touchListener);
+            rlIcon2.setOnTouchListener(touchListener);
+            rlIcon3.setOnTouchListener(touchListener);
+            rlIcon4.setOnTouchListener(touchListener);
+            rlIcon5.setOnTouchListener(touchListener);
 
             // Set 4 SubActionButtons
             FloatingActionMenu centerBottomMenu = new FloatingActionMenu.Builder(getActivity())
