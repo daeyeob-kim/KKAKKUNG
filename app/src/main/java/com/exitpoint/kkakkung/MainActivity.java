@@ -68,8 +68,8 @@ public class MainActivity extends ActionBarActivity {
 
             String[] items = { "1",
                     "2. circular test",
-                    "3",
-                    "4",
+                    "3. sample",
+                    "4. Drag Test",
                     "5"
             };
             ArrayAdapter<String> simpleAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, items);
@@ -93,10 +93,10 @@ public class MainActivity extends ActionBarActivity {
                     startActivity(new Intent(getActivity(), CircularTest.class));
                     break;
                 case 2:
-                    //startActivity(new Intent(getActivity(), Sample3Activity.class));
+                    startActivity(new Intent(getActivity(), SampleActivity.class));
                     break;
                 case 3:
-                    //startActivity(new Intent(getActivity(), Sample4Activity.class));
+                    startActivity(new Intent(getActivity(), DragTestActivity.class));
                     break;
 
             }

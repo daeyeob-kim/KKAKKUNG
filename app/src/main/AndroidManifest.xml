@@ -20,6 +20,14 @@
             android:name=".CircularTest"
             android:label="@string/title_activity_circular_test" >
         </activity>
+        <activity
+            android:name=".SampleActivity"
+            android:label="@string/title_activity_sample" >
+        </activity>
+        <activity
+            android:name=".DragTestActivity"
+            android:label="@string/title_activity_drag_test" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,147 +1,44 @@
 package com.exitpoint.kkakkung;
 
+import android.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.AttributeSet;
+import android.util.Xml;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.exitpoint.kkakkung.library.*;
-
-
-import android.content.Context;
-import android.content.res.TypedArray;
-import android.graphics.Canvas;
-import android.util.AttributeSet;
 import android.view.View;
-import android.widget.RelativeLayout;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+
+import com.exitpoint.kkakkung.CircularView;
+import com.exitpoint.kkakkung.library.FloatingActionButton;
+import com.exitpoint.kkakkung.library.FloatingActionMenu;
+import com.exitpoint.kkakkung.library.SubActionButton;
+
+import org.xmlpull.v1.XmlPullParser;
+import com.exitpoint.kkakkung.library.animation.*;
 
 /**
  * @author Mike Weng mike@mikeweng.com
  * */
 
-public class CircularTest extends RelativeLayout {
-    CircularTest parent;
-    Context context;
-    View v[];
-    int radius; // Radius
-    int startDeg;
-    int child_num; // Number of Children View
 
-    public CircularTest(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        this.context = context;
-        // Need to set this for calling onDraw();
-        // https://groups.google.com/forum/?
-        //     fromgroups#!topic/android-developers/oLccWfszuUo
-        this.setWillNotDraw(false);
-        TypedArray a = context.getTheme()
-                .obtainStyledAttributes(attrs,
-                        R.styleable.CircularTest, 0, 0);
-        try {
-            startDeg = a.getInteger(
-                    R.styleable.CircularTest_startDeg, 0);
-        } finally {
-            a.recycle();
-        }
-        parent = (CircularTest) findViewById(R.id.CircularTest);
-        radius = 100;
-    }
-
-    @Override
-    protected void onDraw(Canvas c) {
-        super.onDraw(c);
-        child_num = parent.getChildCount();
-        if (child_num == 1) {
-            // Only 1 children. i.e. No actual child view.
-            // (It must be View ID="center")
-            return;
-        }
-        float degree_between_views;
-        if (child_num == 2) { // Only 1 actual child.
-            degree_between_views = 0;
-        } else {
-            degree_between_views =
-                    (float) (360.0/(child_num - 1));
-        }
-        for (int i = 1; i < child_num; i++) {
-            if (parent.getChildAt(i).getId() != R.id.center) {
-                parent.getChildAt(i).setLayoutParams(modifyLayoutParams
-                        ((RelativeLayout.LayoutParams)
-                                        parent.getChildAt(i).getLayoutParams(),
-                                (int)(startDeg + degree_between_views * (i-1))));
-            }
-        }
-    }
-
-
-    private RelativeLayout.LayoutParams modifyLayoutParams(
-            RelativeLayout.LayoutParams lp, int degree) {
-        /**
-         * Determine in Quadrant or on Axis
-         * Using Android convention. Right X-axis is degree 0, growing clockwise.
-         * */
-        degree = degree % 360;
-        if (degree < 0) { // Make it positive
-            degree += 360;
-        }
-        if (degree == 0) { // right x-axis. Right
-            lp.addRule(RelativeLayout.RIGHT_OF, R.id.center);
-            lp.addRule(RelativeLayout.CENTER_VERTICAL);
-            lp.setMargins(radius, 0, 0, 0);
-        } else if (degree > 0 && degree < 90) { // Quadrant IV. Lower Right
-            lp.addRule(RelativeLayout.BELOW, R.id.center);
-            lp.addRule(RelativeLayout.RIGHT_OF, R.id.center);
-            // Determine margin.
-            lp.setMargins(getMarginX(degree), getMarginY(degree), 0, 0);
-        } else if (degree == 90) { // Bottom y-axis. Bottom
-            lp.addRule(RelativeLayout.BELOW, R.id.center); // Above Center.
-            lp.addRule(RelativeLayout.CENTER_IN_PARENT);
-            lp.setMargins(0, radius, 0, 0);
-        } else if (degree > 90 && degree < 180) { // Quadrant III. Lower Left
-            lp.addRule(RelativeLayout.BELOW, R.id.center);
-            lp.addRule(RelativeLayout.LEFT_OF, R.id.center);
-            // Determine margin.
-            lp.setMargins(0, getMarginX(degree - 90), getMarginY(degree - 90), 0);
-        } else if (degree == 180) { // Right x-axis. Left
-            lp.addRule(RelativeLayout.LEFT_OF, R.id.center);
-            lp.addRule(RelativeLayout.CENTER_VERTICAL);
-            lp.setMargins(0, 0, radius, 0);
-        } else if (degree > 180 && degree < 270) { // Quadrant II. Upper Left
-            lp.addRule(RelativeLayout.ABOVE, R.id.center);
-            lp.addRule(RelativeLayout.LEFT_OF, R.id.center);
-            // Determine margin.
-            lp.setMargins(0, 0, getMarginX(degree - 180), getMarginY(degree - 180));
-        } else if (degree == 270) { // Top y-axis. Top
-            lp.addRule(RelativeLayout.ABOVE, R.id.center); // Above Center.
-            lp.addRule(RelativeLayout.CENTER_IN_PARENT);
-            lp.setMargins(0, 0, 0, radius);
-        } else if (degree > 270 && degree < 360) { // Quadrant I. Upper Right
-            lp.addRule(RelativeLayout.ABOVE, R.id.center);
-            lp.addRule(RelativeLayout.RIGHT_OF, R.id.center);
-            // Determine margin.
-            lp.setMargins(getMarginX(360 - degree), 0, 0, getMarginY(360 - degree));
-        }
-        return lp;
-    }
-    /** X offset i.e. adjacent length */
-    private int getMarginX(int degree) {
-        return Math.abs((int)(Math.cos(Math.toRadians(degree)) * radius));
-    }
-    /** Y offset i.e. opposite length */
-    private int getMarginY(int degree) {
-        return Math.abs((int) (Math.sin(Math.toRadians(degree)) * radius));
-    }
-}
-
-
-/*
 public class CircularTest extends ActionBarActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circular_test);
+        if (savedInstanceState == null) {
+            getFragmentManager().beginTransaction()
+                    .add(R.id.container, new CustomAnimationDemoFragment())
+                    .commit();
+        }
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -156,13 +53,62 @@ public class CircularTest extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
+
+    /**
+     * A placeholder fragment containing a simple view.
+     */
+    public static class CustomAnimationDemoFragment extends Fragment {
+
+        public CustomAnimationDemoFragment() {
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_circular, container, false);
+
+            ImageView fabContent = new ImageView(getActivity());
+            fabContent.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_settings));
+
+            FloatingActionButton darkButton = new FloatingActionButton.Builder(getActivity())
+                    .setTheme(FloatingActionButton.THEME_DARK)
+                    .setContentView(fabContent)
+                    .setPosition(FloatingActionButton.POSITION_BOTTOM_CENTER)
+                    .build();
+
+            SubActionButton.Builder rLSubBuilder = new SubActionButton.Builder(getActivity())
+                    .setTheme(SubActionButton.THEME_DARK);
+            ImageView rlIcon1 = new ImageView(getActivity());
+            ImageView rlIcon2 = new ImageView(getActivity());
+            ImageView rlIcon3 = new ImageView(getActivity());
+            ImageView rlIcon4 = new ImageView(getActivity());
+            ImageView rlIcon5 = new ImageView(getActivity());
+
+            rlIcon1.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_chat));
+            rlIcon2.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_camera));
+            rlIcon3.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_video));
+            rlIcon4.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_place));
+            rlIcon5.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_headphones));
+
+            // Set 4 SubActionButtons
+            FloatingActionMenu centerBottomMenu = new FloatingActionMenu.Builder(getActivity())
+                    .setStartAngle(0)
+                    .setEndAngle(-180)
+                    .setAnimationHandler(new SlideInAnimationHandler())
+                    .addSubActionView(rLSubBuilder.setContentView(rlIcon1).build())
+                    .addSubActionView(rLSubBuilder.setContentView(rlIcon2).build())
+                    .addSubActionView(rLSubBuilder.setContentView(rlIcon3).build())
+                    .addSubActionView(rLSubBuilder.setContentView(rlIcon4).build())
+                    .addSubActionView(rLSubBuilder.setContentView(rlIcon5).build())
+                    .attachTo(darkButton)
+                    .build();
+
+            return rootView;
+        }
+    }
 }
-*/
